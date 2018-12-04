@@ -1,0 +1,39 @@
+@charset "utf-8";
+body {
+    background-color: hsl(200, 15%, 85%);
+    font-family: sans-serif;
+    text-align: justify;
+}
+h1{
+    color: #333333;
+    font-size: 250%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p{
+    background-color: hsl(200, 15%, 75%);
+}
+h2{
+    background-color: hsl(200, 15%, 55%);
+    color: hsl(200, 15%, 30%);
+    font-size: 200%;
+    text-decoration: underline;
+}
+
+strong{
+    color: hsl(200, 100%, 30%);
+    font-weight: normal;
+}
+
+em{
+    color: hsl(200, 100%, 40%);
+    font-style: normal;
+    font-weight: bold;
+}
+
+footer>address{
+    background-color: white;
+    font-weight: bold;
+    text-align: right;
+}
